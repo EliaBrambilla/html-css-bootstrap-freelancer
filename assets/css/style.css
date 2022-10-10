@@ -1,10 +1,12 @@
-/* GENERAL */
+/* INIZIO GENERAL */
 
 img{
     max-width: 100%;
   }
+
+  /* FINE GENERAL */
   
-  /* PERSONAL */
+  /* INIZIO MY SETTINGS */
   
   .jt-container{
     width: 60%;
@@ -30,8 +32,10 @@ img{
   .dark .jt-star::before, .dark .jt-star:after{
     background-color: #2C3E50;
   }
+
+  /* FINE MY SETTING */
   
-  /* STAR */
+  /* INIZIO STAR */
 
 .jt-star{
     font-size: 30px;
@@ -50,10 +54,12 @@ img{
   .text h5{
     font-size: 0.7rem;
   }
+
+  /* FINE STAR */
   
-  /* SECTION */
+  /* INIZIO SECTION */
   
-  /* HEADER */
+  /* INIZIO HEADER */
   
   header{
     background-color:#2C3E50;
@@ -71,8 +77,10 @@ img{
     font-size: 2rem;
     font-weight: bold;
   }
+
+  /* FINE HEADER */
   
-  /* JUMBOTORN*/
+  /* INIZIO JUMBOTRON*/
   
   .jumbotron, #about{
     background-color: #1ABC9C;
@@ -82,7 +90,9 @@ img{
     width: 250px;
   }
 
-  /* PORTFOLIO */
+  /* FINE JUMBOTRON */
+
+  /* INIZIO PORTFOLIO */
 
 .jt-card{
     position: relative;
@@ -107,7 +117,11 @@ img{
     display: flex;
   }
 
-  /* FOOTER */
+  /* FINE PORTFOLIO */
+  
+  /* FINE SECTION */
+
+  /* INIZIO FOOTER */
 
 footer{
     color: white;;
@@ -133,5 +147,8 @@ footer{
     border-radius: 50%;
     padding: 10px 10px;
   }
+
+  /* FINE FOOTER */
+  
   
   
