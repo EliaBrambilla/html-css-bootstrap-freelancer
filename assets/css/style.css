@@ -1,0 +1,85 @@
+/* GENERAL */
+
+img{
+    max-width: 100%;
+  }
+  
+  /* PERSONAL */
+  
+  .jt-container{
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .jt-form .form-control{
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+  
+  .jt-btn{
+    background-color: #1ABC9C;
+    color: white;
+  }
+  
+  .dark h2, .dark .jt-star{
+    color: #2C3E50;
+  }
+  
+  .dark .jt-star::before, .dark .jt-star:after{
+    background-color: #2C3E50;
+  }
+  
+  /* STAR */
+
+.jt-star{
+    font-size: 30px;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+  
+  .jt-star::before, .jt-star:after{
+    content: "";
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  .text h5{
+    font-size: 0.7rem;
+  }
+  
+  /* SITE SECTIONS */
+  
+  /* Header */
+  
+  header{
+    background-color:#2C3E50;
+  }
+  
+  header .navbar .nav-link, header .navbar .navbar-brand {
+    color: white;
+  }
+  
+  header .navbar .nav-link:hover{
+    color:#1ABC9C
+  }
+  
+  header .navbar .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Jumbotron*/
+  
+  .jumbotron, #about{
+    background-color: #1ABC9C;
+  }
+  
+  .avatar{
+    width: 250px;
+  }
+  
+  
