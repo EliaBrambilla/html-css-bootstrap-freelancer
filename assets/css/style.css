@@ -106,5 +106,32 @@ img{
   .jt-card:hover .layover{
     display: flex;
   }
+
+  /* FOOTER */
+
+footer{
+    color: white;;
+  }
+  
+  .footer-top{
+    background-color: #3A546D;
+  }
+  
+  .footer-top h5{
+    text-transform: uppercase;
+  }
+  
+  .footer-top span{
+    color: #1ABC9C
+  }
+  
+  .footer-bottom{
+    background-color: #2C3E50;
+  }
+  .fa-brands{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px 10px;
+  }
   
   
